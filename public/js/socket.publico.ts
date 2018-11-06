@@ -1,3 +1,4 @@
+// @ts-ignore
 let socket = io();
 let lblTicket1 = $('#lblTicket1');
 let lblTicket2 = $('#lblTicket2');

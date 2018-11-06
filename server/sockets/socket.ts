@@ -26,7 +26,7 @@ io.on('connection', (client: SocketIO.Socket) => {
     callback(atenderTicket);
     // actualizar o notificar cambios en los ULTIMOS 4
     client.broadcast.emit('ultimos4', {
-      ultimos4: ticketControl.getUltimos4();
-    })
+      ultimos4: ticketControl.getUltimos4()
+    });
   });
 });

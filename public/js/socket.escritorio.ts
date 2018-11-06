@@ -1,6 +1,7 @@
 // import io from 'socket.io';
 namespace socketEscritorio {
   // Comando para establecer la conexión
+  // @ts-ignore
   let socket = io();
 
   // // Comando para detectar conexiones

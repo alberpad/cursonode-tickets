@@ -1,6 +1,7 @@
 // import {io} from 'socket.io';
 
 // Comando para establecer la conexión
+// @ts-ignore
 let socket = io();
 let label = $('#lblNuevoTicket');
 
